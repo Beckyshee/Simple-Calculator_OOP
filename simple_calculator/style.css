@@ -48,3 +48,18 @@ border: 3px solid;
 .container button:focus{
     outline: 2px solid;
 }
+
+
+@media (max-width: 480px) {
+    .container {
+        width: 90%;
+    }
+
+    #result, #num1, #num2 {
+        width: 100%;
+    }
+
+    .container button {
+        width: 60px;
+    }
+}
